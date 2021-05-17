@@ -1,5 +1,5 @@
 # mandychew.github.io - E-Portfolio
-My E-Portfolio in the form of a website.
+My E-Portfolio in the form of a [website](https://mandychew.github.io/).
 
 ## Table of Contents
 - [General Info](#general-information)
