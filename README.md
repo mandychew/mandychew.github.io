@@ -24,6 +24,7 @@ To do:
 - Add words to the website
 
 ## Acknowledgements
+The starting template is from https://github.com/helfi92/studorlio  
 This project was inspired by other E-Portfolios such as:
 - http://mushopea.com/portfolio/index.html
 - http://kimberlyhorton.com/
