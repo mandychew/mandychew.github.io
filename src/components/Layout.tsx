@@ -33,7 +33,7 @@ const Layout = () => {
       </header>
 
       {/* Main Content */}
-      <main className="flex-grow h-full">
+      <main className="flex-grow flex h-full">
         <ProfileSection />
       </main>
 

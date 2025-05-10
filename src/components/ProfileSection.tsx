@@ -24,7 +24,6 @@ const ProfileSection = ({
           <AvatarFallback className="text-4xl">{name.charAt(0)}</AvatarFallback>
         </Avatar>
       </div>
-
       <div className="w-full h-full md:w-2/3 p-8 flex flex-col justify-center space-y-6">
         <div>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
