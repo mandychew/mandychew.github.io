@@ -15,7 +15,7 @@ function App() {
             <Route path="/articles" element={<Articles />} />
           </Route>
         </Routes>
-        {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)}
+        /* {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)} */
       </>
     </Suspense>
   );
