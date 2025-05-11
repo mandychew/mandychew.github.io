@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import { MyImage } from "../assets/picture.jpg";
+import MyImage from "../assets/picture.jpg";
 
 interface ProfileSectionProps {
   name?: string;
