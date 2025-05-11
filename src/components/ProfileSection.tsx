@@ -2,6 +2,7 @@ import React from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
+import { MyImage } from "../assets/picture.jpg";
 
 interface ProfileSectionProps {
   name?: string;
@@ -14,7 +15,7 @@ const ProfileSection = ({
   name = "Mandy Chew",
   tagline = "Computing, Law & Digital Business Student at Singapore Management University",
   linkedInUrl = "https://www.linkedin.com/in/mandy-chew/",
-  profileImageUrl = "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
+  profileImageUrl = MyImage,
 }: ProfileSectionProps) => {
   return (
     <div className="flex flex-col md:flex-row w-full h-full">
