@@ -5,7 +5,7 @@ import ProfileSection from "./ProfileSection";
 const Layout = () => {
   const location = useLocation();
   const isHomePage = location.pathname === "/" || location.pathname === "";
-  // const isArticlesPage = location.pathname === "/articles";
+  const isArticlesPage = location.pathname === "/articles";
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
@@ -22,12 +22,12 @@ const Layout = () => {
             >
               Home
             </Link>
-            {/* <Link
+            <Link
               to="/articles"
               className={`text-sm font-medium ${isArticlesPage ? "text-blue-600" : "text-gray-600 hover:text-blue-600"}`}
             >
               Articles
-            </Link> */}
+            </Link>
           </nav>
         </div>
       </header>
