@@ -18,7 +18,7 @@ const ProfileSection = ({
   profileImageUrl = MyImage,
 }: ProfileSectionProps) => {
   return (
-    <div className="flex flex-col md:flex-row w-full h-full">
+    <div className="flex flex-col md:flex-row w-full h-full flex-grow">
       <div className="w-full h-full md:w-1/3 bg-gradient-to-br from-blue-50 to-indigo-100 p-8 flex items-center justify-center">
         <Avatar className="h-48 w-48 rounded-full border-4 border-white shadow-lg">
           <AvatarImage src={profileImageUrl} alt={name} />
