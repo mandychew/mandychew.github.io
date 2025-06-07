@@ -20,9 +20,9 @@ const ProfileSection = ({
   return (
     <div className="flex flex-col md:flex-row w-full h-full flex-grow">
       <div className="w-full h-full md:w-1/3 bg-gradient-to-br from-blue-50 to-indigo-100 p-8 flex items-center justify-center">
-        <Avatar className="h-48 w-48 rounded-full border-4 border-white shadow-lg">
+        <Avatar className="h-40 w-40 md:h-56 md:w-56 lg:h-60 lg:w-60 rounded-full border-4 border-white shadow-lg">
           <AvatarImage src={profileImageUrl} alt={name} />
-          <AvatarFallback className="text-4xl">{name.charAt(0)}</AvatarFallback>
+          <AvatarFallback className="text-2xl md:text-4xl">{name.charAt(0)}</AvatarFallback>
         </Avatar>
       </div>
       <div className="w-full h-full md:w-2/3 p-8 flex flex-col justify-center space-y-6">
